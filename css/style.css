@@ -1,0 +1,101 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 21px;
+    font-weight: bold; 
+}
+
+p{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 2;
+}
+
+li{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 2;
+}
+
+@media (max-width: 768px){
+
+    h2{
+        font-size: 26px;
+        font-weight: bold;
+        line-height: 1.5;
+    }
+    
+    h3{
+        font-size: 21px;
+        font-weight: bold; 
+    }
+    
+    p{
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 1.5;
+    }
+
+    li{
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 1.5;
+    }
+}
+
+.title-Main{
+    padding: 100px 40px 20px 40px;
+    text-align: center;
+}
+
+.txt{
+    text-align: center;
+    padding: 0px 40px 100px 40px;
+}
+
+.hidden{
+    display: none;
+}
+
+.hidden-Text{
+    font-size: 0px;
+}
+
+.margin-200{
+    margin-bottom: 200px;
+}
+
+.margin-600{
+    margin-bottom: 600px;
+}
+
+/* .line{
+    border-bottom: 0.5px solid #ddd;
+} */
+
+/* .texthidden{
+    color: rgba(255, 255, 255, 0);
+}
+
+.trigger{
+    animation-name: example;
+    animation-duration: 1.5s;
+}
+
+@keyframes example {
+    from {opacity: 0; top:100px;}
+    to {opacity: 1; top:0px;}
+} */

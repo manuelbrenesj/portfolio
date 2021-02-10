@@ -1,0 +1,12 @@
+
+button{
+    background: rosybrown;
+}
+
+button:hover{
+    background: yellowgreen;
+}
+
+button:active{
+    background: skyblue;
+}

@@ -1,0 +1,34 @@
+
+.sectionFather-Work{
+    /* background-image: linear-gradient(100deg, #1B747B, #79C6CC); */
+    /* background-image: linear-gradient(225deg, #2477a7 0%, #3cb893 100%); */
+    background-image: url("../img/Untitled_4-01.jpeg");
+    color: #fff;
+    height: 292px;
+    padding: 330px 0;
+    box-shadow: 0 0px 20px rgba(100, 100, 100, 0.2);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media (max-width: 1024px){
+    
+}
+
+@media (max-width: 768px){
+
+}
+
+@media (max-width: 414px){
+    .sectionFather-Work{
+        padding: 50px 0;
+    }
+}
+
+@media (max-width: 375px){
+
+}
+
+@media (max-width: 360px){
+
+}

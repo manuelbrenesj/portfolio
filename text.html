@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Javascript: Slider</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    </head>
+
+    <body>
+        
+        <div>
+            <img src="img/mockup-01.png" id="slide" alt="" width="400" height="200">
+            <button onclick="mySlide('prev');">atras<</button>
+            <button onclick="mySlide('next');">>adelante</button>
+        </div>
+        
+        <script>
+            
+            //var p = document.getElementById("pre").addEventListener("click",mySlide('prev'))
+            var i = 0
+            var images = ["img/mockup-01.png","img/mockup-02.png","img/mockup-03.png","img/mockup-04.png"];
+                            
+
+            function mySlide(param)
+            {
+                if(param === 'next'){
+
+                    if(i<2){
+                        i++;
+                    } else {
+                        i=0;
+                    }
+
+                } else {
+                    if(i==0){
+                        i=3;
+                    }
+                    i--;
+                }
+
+                document.getElementById('slide').src = images[i];
+            }
+            
+        </script>
+    
+    </body>
+</html>
